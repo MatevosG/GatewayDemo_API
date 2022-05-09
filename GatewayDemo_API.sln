@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayDemo_API", "GatewayDemo_API\GatewayDemo_API.csproj", "{F8368BAE-9218-4F0F-B916-986E5FE8C513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer", "Customer\Customer.csproj", "{FCA73581-3245-4088-8BCB-24E0AA04ED60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8368BAE-9218-4F0F-B916-986E5FE8C513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8368BAE-9218-4F0F-B916-986E5FE8C513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8368BAE-9218-4F0F-B916-986E5FE8C513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8368BAE-9218-4F0F-B916-986E5FE8C513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA73581-3245-4088-8BCB-24E0AA04ED60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA73581-3245-4088-8BCB-24E0AA04ED60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA73581-3245-4088-8BCB-24E0AA04ED60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA73581-3245-4088-8BCB-24E0AA04ED60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6229D8DE-EE58-499E-A761-9CA5E760793A}
+	EndGlobalSection
+EndGlobal

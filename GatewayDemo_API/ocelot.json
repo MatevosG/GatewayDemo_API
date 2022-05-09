@@ -1,0 +1,80 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Customer/GetAllCustomer",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7054
+        }
+      ],
+      "UpstreamPathTemplate": "/api/aaa/aaaa", // sranov dimumen postmanic inqnel dimuma himnakanin
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Customer/GetCustomerById/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7054
+        }
+      ],
+      "UpstreamPathTemplate": "/bbb/bbbb/{id}",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Customer/CreateCustumer",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7054
+        }
+      ],
+      "UpstreamPathTemplate": "/CreateCustumer",
+      "UpstreamHttpMethod": [
+        "POST"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Customer/UpdateCustumer",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7054
+        }
+      ],
+      "UpstreamPathTemplate": "/UpdateCustumer",
+      "UpstreamHttpMethod": [
+        "PUT"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Customer/DeleteCustumer/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7054
+        }
+      ],
+      "UpstreamPathTemplate": "/DeleteCustumer/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ]
+    }
+
+  ],
+  "GlobalConfiguration": {
+   // "RequestIdKey": "X-Correlation-Id",
+    "BaseUrl": "https://localhost:7012"
+  }
+
+}
